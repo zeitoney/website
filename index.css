@@ -21,7 +21,7 @@ a {
 }
 img {
 	height: 100%;
-	width: 75%;
+	width: 100%;
 	object-fit: cover;
 }
 p {
@@ -49,7 +49,7 @@ p {
 	display: inline-block;
 	padding: 10px 30px;
 	color: white;
-	background-color: crimson;
+	background-color: transparent;
 	border: 2px solid crimson;
 	font-size: 2rem;
 	text-transform: uppercase;
@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url();
+	background-image: url(./img/hero-bg.png);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -264,26 +264,26 @@ p {
 
 /* End Hero Section */
 
-/* My Story Section */
-#mystory .MyStory {
+/* Services Section */
+#services .services {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#smystory .mystory-top {
+#services .service-top {
 	max-width: 500px;
 	margin: 0 auto;
 }
-#mystory .mystory-bottom {
+#services .service-bottom {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
-#mystory .mystory-item {
+#services .service-item {
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -291,14 +291,14 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(/background1.jpeg);
+	background-image: url(./img/img-1.png);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
 }
-#mystory .mystory-item::after {
+#services .service-item::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -309,22 +309,22 @@ p {
 	opacity: 0.9;
 	z-index: -1;
 }
-#mystory .mystory-bottom .icon {
+#services .service-bottom .icon {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
-#mystory .smystory-item h2 {
+#services .service-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#mystory .mystory-item p {
+#services .service-item p {
 	color: white;
 	text-align: left;
 }
-/* End mystory Section */
+/* End Services Section */
 
 /* Projects section */
 #projects .projects {
@@ -404,7 +404,7 @@ p {
 	flex-direction: column-reverse;
 	text-align: center;
 	max-width: 1200px;
-	margin: 100 auto;
+	margin: 0 auto;
 	padding: 100px 20px;
 }
 #about .col-left {
