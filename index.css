@@ -291,7 +291,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(/new-website/images/background1.jpeg);
+	background-image: url(/background1.jpeg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
