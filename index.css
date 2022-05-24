@@ -324,6 +324,15 @@ p {
 	color: white;
 	text-align: left;
 }
+#services .service-item a {
+	color: crimson;
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	}
+#services .service-item a:hover{
+    color: black;
+}
 /* End Services Section */
 
 /* links section */

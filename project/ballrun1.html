@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width">
+  <title> Ball Run </title>
+  <head>
+    <style>
+    .ballpit {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1000px;
+      height: 1000px;
+      border: solid 1px grey;
+      margin: 50px;
+    }
+    .ball {
+      position: absolute;
+      border-radius: 50%;
+    }
+    .controls {
+      position: absolute;
+      left: 50px;
+      top: 20px;
+      z-index: 2;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="ballpit"></div>
+    <div class="controls">
+      <button onclick="makeBall()" class="makeBall">Make a Ball</button>
+    </div>
+    <script src="ballrun1.js"></script>
+  </body>
+</html>
